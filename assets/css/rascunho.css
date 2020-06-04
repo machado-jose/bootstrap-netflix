@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+#logo{
+    width: 80px;
+    height: 40px;
+}
+
+#input-menu-search{
+    width: 30vw;
+}
+
+.main-movie-description small{
+    color: grey;
+    margin-right: 1em;
+}
+
+.list-title{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: gray;
+}
+
+.main-list a{
+    border: none;
+    margin-right: 5px;
+    padding: 0;
+}
+
+.main-list img{
+    width: 150px;
+    height: 100px;
+}
+
+.user-options a{
+    padding-bottom: 0;
+    color: white;
+    font-size: 0.8rem;
+}
+

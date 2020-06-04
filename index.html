@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Netflix</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+
+        <button class="navbar-toggler mr-1 d-lg-none" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a href="#" class="navbar-brand flex-grow-1">
+            <img src="/assets/img/logo.png" alt="Logo-Netflix">
+        </a>
+
+        <ul class="nav text-white d-none d-lg-flex">
+            <li class="nav-item">
+                <a href="#" class="nav-link text-reset active d-xl-none">Navegar</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-reset d-xl-none">Infantil</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-reset d-none d-xl-flex active">Início</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-reset d-none d-xl-flex">Filmes</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-reset d-none d-xl-flex">Séries</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-reset d-none d-xl-flex">Adicionados Recentemente</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-reset d-none d-xl-flex">Minha Lista</a>
+            </li>
+        </ul>
+
+        <form action="#" class="form-inline">
+            <input type="search" class="form-control" placeholder="Buscar">
+        </form>
+
+        <div class="media text-white p-2 d-none d-lg-flex align-items-center">
+            <img src="https://api.adorable.io/avatars/400/abott@adorable.io.png" alt="Avatar">
+            <div class="media-body">
+                <h6>Carlito Tevez</h6>
+            </div>
+        </div>
+        
+        <ul class="list-unstyled font-weight-bold sidebar">
+            <li class="media">
+                <img src="https://api.adorable.io/avatars/400/abott@adorable.io.png" alt="Avatar">
+                <div class="media-body">
+                    <h6>Carlito Tevez</h6>
+                    <small>Trocar de perfil</small>
+                </div>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#" class="text-reset">Início</a></li>
+            <li><a href="#" class="text-reset">Minha Lista</a></li>
+            <li><a href="#" class="text-reset">Séries de Ação e Aventura</a></li>
+            <li><a href="#" class="text-reset">Ação e Aventura</a></li>
+            <li><a href="#" class="text-reset">Séries Teen</a></li>
+            <li><a href="#" class="text-reset">Filmes Africanos</a></li>
+            <li><a href="#" class="text-reset">Séries da América Latina</a></li>
+            <li><a href="#" class="text-reset">Filmes de Anime</a></li>
+        </ul>
+    </nav>
+        
+    <div class="card border-0 text-white full-banner">
+        <img src="/assets/img/full-banner.jpg" alt="Vindagores - Era de Ultron" class="card-img rounded-0">
+        <div class="card-img-overlay">
+            <h4 class="card-title my-1">Vingadores: Ultimato</h4>
+            <div class="d-flex flex-column">
+                <div class="d-flex">
+                    <small class="card-text">2019</small>
+                    <small class="card-text">12</small>
+                    <small class="card-text">1h42min</small>
+                </div>
+                <p class="card-text d-none mt-1">Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.</p> 
+            </div>
+            <a href="#" class="btn btn-primary text-uppercase font-weight-bold my-3">Assistir</a>
+        </div>
+    </div>
+    
+    <div class="container-fluid mr-0 pr-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="py-3 pl-3 list-titles">
+                    <h2 class="h6">Adicionados Recentemente</h2>
+                    <div class="d-flex flex-nowrap overflow-hidden">
+                        <a class="mr-1" href="#"><img src="/assets/img/vingadores-era-de-ultron.jpg" class="w-100" alt="Vingadores: Era de Ultron"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/better-call-saul.jpg" class="w-100" alt="Better Call Saul"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/eu-sou-a-lenda.jpg" class="w-100" alt="Eu Sou a Lenda"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/the-rain.jpg" class="w-100" alt="The Rain"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/guardios-da-galaxia.jpg" class="w-100" alt="Guardiões da Galáxia"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/o-menino-que-descobriu-o-vento.jpg" class="w-100" alt="O Menino que Descobriu o Vento"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/homem-de-ferro-2.jpg" class="w-100" alt="Home de Ferro 2"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/guardios-da-galaxia.jpg" class="w-100" alt="Guardiões da Galáxia"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/vingadores-era-de-ultron.jpg" class="w-100" alt="Vingadores: Era de Ultron"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/better-call-saul.jpg" class="w-100" alt="Better Call Saul"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/eu-sou-a-lenda.jpg" class="w-100" alt="Eu Sou a Lenda"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/the-rain.jpg" class="w-100" alt="The Rain"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/guardios-da-galaxia.jpg" class="w-100" alt="Guardiões da Galáxia"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/o-menino-que-descobriu-o-vento.jpg" class="w-100" alt="O Menino que Descobriu o Vento"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/homem-de-ferro-2.jpg" class="w-100" alt="Home de Ferro 2"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="py-3 pl-3 list-titles">
+                    <h2 class="h6 text-capitalize">em alta</h2>
+                    <div class="d-flex flex-nowrap overflow-hidden">
+                        <a class="mr-1" href="#"><img src="/assets/img/vingadores-era-de-ultron.jpg" class="w-100" alt="Vingadores: Era de Ultron"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/better-call-saul.jpg" class="w-100" alt="Better Call Saul"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/eu-sou-a-lenda.jpg" class="w-100" alt="Eu Sou a Lenda"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/the-rain.jpg" class="w-100" alt="The Rain"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/guardios-da-galaxia.jpg" class="w-100" alt="Guardiões da Galáxia"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/o-menino-que-descobriu-o-vento.jpg" class="w-100" alt="O Menino que Descobriu o Vento"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/homem-de-ferro-2.jpg" class="w-100" alt="Home de Ferro 2"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/guardios-da-galaxia.jpg" class="w-100" alt="Guardiões da Galáxia"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/vingadores-era-de-ultron.jpg" class="w-100" alt="Vingadores: Era de Ultron"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/better-call-saul.jpg" class="w-100" alt="Better Call Saul"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/eu-sou-a-lenda.jpg" class="w-100" alt="Eu Sou a Lenda"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/the-rain.jpg" class="w-100" alt="The Rain"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/guardios-da-galaxia.jpg" class="w-100" alt="Guardiões da Galáxia"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/o-menino-que-descobriu-o-vento.jpg" class="w-100" alt="O Menino que Descobriu o Vento"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/homem-de-ferro-2.jpg" class="w-100" alt="Home de Ferro 2"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="py-3 pl-3 list-titles">
+                    <h2 class="h6 text-capitalize">continuar assistindo como <span class="text-uppercase">carlitos tevez</span></h2>
+                    <div class="d-flex flex-nowrap overflow-hidden">
+                        <a class="mr-1" href="#"><img src="/assets/img/vingadores-era-de-ultron.jpg" class="w-100" alt="Vingadores: Era de Ultron"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/better-call-saul.jpg" class="w-100" alt="Better Call Saul"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/eu-sou-a-lenda.jpg" class="w-100" alt="Eu Sou a Lenda"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/the-rain.jpg" class="w-100" alt="The Rain"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/guardios-da-galaxia.jpg" class="w-100" alt="Guardiões da Galáxia"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/o-menino-que-descobriu-o-vento.jpg" class="w-100" alt="O Menino que Descobriu o Vento"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/homem-de-ferro-2.jpg" class="w-100" alt="Home de Ferro 2"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/guardios-da-galaxia.jpg" class="w-100" alt="Guardiões da Galáxia"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/vingadores-era-de-ultron.jpg" class="w-100" alt="Vingadores: Era de Ultron"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/better-call-saul.jpg" class="w-100" alt="Better Call Saul"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/eu-sou-a-lenda.jpg" class="w-100" alt="Eu Sou a Lenda"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/the-rain.jpg" class="w-100" alt="The Rain"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/guardios-da-galaxia.jpg" class="w-100" alt="Guardiões da Galáxia"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/o-menino-que-descobriu-o-vento.jpg" class="w-100" alt="O Menino que Descobriu o Vento"></a>
+                        <a class="mr-1" href="#"><img src="/assets/img/homem-de-ferro-2.jpg" class="w-100" alt="Home de Ferro 2"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="row no-gutters p-3 justify-content-md-start">
+            <a href="#" class="col-12 col-md-3 text-reset"><small>Termos de uso</small></a>
+            <a href="#" class="col-12 col-md-3 text-reset"><small>Declaração de privacidade</small></a>
+            <a href="#" class="col-12 col-md-3 text-reset"><small>Preferência de cookies</small></a>
+            <a href="#" class="col-12 col-md-3 text-reset"><small>Centro de ajuda</small></a>
+        </footer>
+    </div>
+    
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+
+        var btn = document.querySelector('.navbar-toggler');
+        var navbar = document.querySelector('.navbar');
+
+        btn.addEventListener('click', e=>{
+
+            navbar.classList.toggle('sidebar-open');
+            
+            if(navbar.classList.contains('sidebar-open')){
+
+                var backdrop = document.createElement('div');
+                backdrop.classList.add('backdrop');
+
+                backdrop.addEventListener('click', e=>{
+                    navbar.classList.remove('sidebar-open');
+                    document.querySelector('.backdrop').remove();
+                });
+
+                document.querySelector('body').append(backdrop);
+
+            }else{
+                
+                document.querySelector('.backdrop').remove();
+
+            }
+
+        });
+        
+    </script>
+</body>
+</html>
